@@ -323,3 +323,18 @@ body.collapsed .expand-btn i {
     width: 100%;
   }
 }
+
+/* Theme Switcher */
+.themeSwitcher {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.themeSwitcher i {
+  font-size: 1.5rem;
+}
+
+.themeSwitcher:hover i {
+  color: var(--logout);
+}
