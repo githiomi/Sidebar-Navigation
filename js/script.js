@@ -27,7 +27,13 @@ allLinks.forEach((elem) => {
 const themeSwitcherIcon = document.querySelector(".themeSwitcher i");
 
 themeSwitcherIcon.addEventListener("click", (e) => {
-  document.body.classList.add("dark");  
+  let body = document.body.classList;
+  let darkMode = !!body.contains("dark");
+
+  if (darkMode)
+    body.remove("dark");
+  else
+    body.add("dark");
 });
 
 // const searchInput = document.querySelector(".search_wrapper input");
