@@ -351,3 +351,36 @@ body.collapsed .expand-btn i {
 .themeSwitcher:hover i {
   color: var(--logout);
 }
+
+/* Body Image */
+.image{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  border: 1px solid var(--expand-button);
+  padding: 3rem 1rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  animation: rotate 5s linear infinite;
+}
+
+.image img {
+  max-width: 80%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+
+  50%{
+    transform: rotate3d(0, 1, 0, 180deg);
+  }
+
+  to{
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  
+}
+
