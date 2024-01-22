@@ -238,6 +238,7 @@
     overflow-x: hidden;
     min-height: 2.5rem;
     margin-top: auto;
+    margin-bottom: 1.5rem;
   }
   
   .avatar__wrapper {
