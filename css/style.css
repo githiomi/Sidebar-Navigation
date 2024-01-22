@@ -15,7 +15,8 @@
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     padding: .2rem 1rem;
-    height: 100%;
+    max-height: 100vh;
+    overflow: hidden;
     background: var(--background);
   }
   
@@ -85,7 +86,7 @@
     pointer-events: none;
   }
   
-  /*? sidebar top */
+  /* sidebar top */
   .sidebar-top-wrapper {
     display: flex;
     background-color: var(--primary-color-light);
@@ -151,6 +152,7 @@
   
   .sidebar-links li a:hover {
     background-color: var(--sidebar-primary-hover);
+    color: var(--logout);
   }
   
   .sidebar-links li a {
