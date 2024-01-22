@@ -11,6 +11,10 @@
   --search-background: #2B2B2F;
 }
 
+.dark {
+  --background: #1E1E1E;
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
@@ -327,11 +331,13 @@ body.collapsed .expand-btn i {
 /* Theme Switcher */
 .themeSwitcher {
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
 }
 
 .themeSwitcher i {
+  cursor: pointer;
   font-size: 1.5rem;
 }
 

@@ -24,8 +24,14 @@ allLinks.forEach((elem) => {
   });
 });
 
-const searchInput = document.querySelector(".search_wrapper input");
+const themeSwitcherIcon = document.querySelector(".themeSwitcher i");
 
-searchInput.addEventListener("focus", (e) => {
-  document.body.classList.remove("collapsed");
+themeSwitcherIcon.addEventListener("click", (e) => {
+  document.body.classList.add("dark");  
 });
+
+// const searchInput = document.querySelector(".search_wrapper input");
+
+// searchInput.addEventListener("focus", (e) => {
+//   document.body.classList.remove("collapsed");
+// });
